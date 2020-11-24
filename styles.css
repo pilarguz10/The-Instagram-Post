@@ -1,0 +1,165 @@
+body{
+    background: black;
+    margin: 0;
+}
+
+.contenedor-principal
+{
+    margin: auto;
+    width: 500px;
+    background: white;
+    height: 700px;
+   
+}
+
+.icono-opciones{
+    color:black;   
+}
+
+.titulo h1{
+    font-family: roboto;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.contenedor-principal img{
+width: 100%;
+}
+
+.icono-html 
+{
+    font-size: 26px;
+}
+
+.cabecera .icono-html{
+    display: inline-block;
+    margin-left: 2%;
+
+}
+
+.acciones .fa-heart{
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.acciones .fa-comment{
+    display: inline-block;
+    margin-left: 2%;
+}
+.acciones .fa-paper{
+    display: inline-block;
+    margin-left: 2%;
+}
+.acciones .fa-bookmark{
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.cabecera{
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.acciones{
+    /*height: 90px;*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2%;
+}
+
+.actions
+{
+    flex:1;
+}
+
+
+.flex-child 
+{
+    flex: 1;
+   
+}  
+
+.actions:first-child
+{
+    margin-right: 10px;
+}
+
+.flex-child:first-child {
+    margin-right: 10px;
+} 
+
+.flex-child:last-child .icono-opciones{
+    text-align: center;
+    position: relative;
+ 
+}
+
+.actions:last-child .fa-bookmark{
+      text-align: center;
+    position: relative;
+}
+
+.cabecera .titulo
+{
+    display: inline-block;
+    
+}
+
+
+.acciones .fa-bookmark{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    margin-left: 65%;
+}
+
+
+.cabecera .icono-opciones
+{  
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    margin-left: 65%;
+    
+}
+
+
+.cabecera .icono-html .titulo{
+    width: 85%;
+}
+
+
+.acciones .fa-heart .fa-paper .fa-comment{
+    width: 85%;
+}
+
+.cabecera .flex-child
+{
+     display: inline-block;
+}
+
+.acciones .actions{
+    display: inline-block;
+}
+
+
+
+.pie-publicacion
+{
+  margin: 5% 0% 0% 2%;
+  font-family: Arial, Helvetica;
+}
